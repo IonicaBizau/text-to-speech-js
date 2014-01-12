@@ -3,6 +3,8 @@ Text To Speech JS
 
 A small JavaScript library that provides a text to speech conversion using tts-api.com service.
 
+[<img src="http://i.imgur.com/Q0uMnvD.png" width="100%">](http://ionicabizau.github.io/text-to-speech-js/)
+
 ## How to use
 
 Import the library in your web page:
