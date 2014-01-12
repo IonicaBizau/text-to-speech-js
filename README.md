@@ -47,9 +47,6 @@ If a second argument is not provided the speech will start immediately.
     </tbody>
 </table>
 
-<table>
-</table.
-
 ## License
 
 The MIT License (MIT)
