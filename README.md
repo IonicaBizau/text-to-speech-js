@@ -1,4 +1,4 @@
-text-to-speech-js
+Text To Speech JS
 =================
 
 A small JavaScript library that provides a text to speech conversion using tts-api.com service.
