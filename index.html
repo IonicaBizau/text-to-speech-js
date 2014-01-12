@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <script src="https://rawgithub.com/IonicaBizau/text-to-speech-js/master/text-to-speech.js"></script>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -48,8 +49,22 @@
 
 <p>If a second argument is not provided the speech will start immediately.</p>
 
-<h2>
-<a name="methods" class="anchor" href="#methods"><span class="octicon octicon-link"></span></a>Methods</h2>
+<h2><a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<div class="highlight highlight-js"><pre id="js-code-to-run" contenteditable="">TextToSpeech.talk("Hello Beautiful World!");</pre></div>
+<button class="button" id="run-code">
+    <small>Run code</small>
+    now
+</button>
+
+<script>
+    document.getElementById("run-code").addEventListener("click", function () {
+        eval(document.getElementById("js-code-to-run").innerText);
+        return false;
+    });
+</script>
+
+<h2><a name="methods" class="anchor" href="#methods"><span class="octicon octicon-link"></span></a>Methods</h2>
 
 <table>
 <thead><tr>

@@ -128,6 +128,22 @@ aside#sidebar p.repo-owner a {
   margin-bottom: 40px;
 }
 
+#js-code-to-run {
+    margin-bottom: 10px;
+}
+
+button.button {
+    background: #377CCA;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
 a.button {
   width: 134px;
   height: 58px;
