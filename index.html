@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <script src="./tmp.js"></script>
+    <script src="./javascripts/main.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Text To Speech JS by IonicaBizau</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Text To Speech JS</h1>
+        <h2>A small JavaScript library that provides a text to speech conversion using tts-api.com service.</h2>
+        <a href="https://github.com/IonicaBizau/text-to-speech-js" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="text-to-speech-js" class="anchor" href="#text-to-speech-js"><span class="octicon octicon-link"></span></a>Text To Speech JS</h1>
+
+<p>A small JavaScript library that provides a text to speech conversion using tts-api.com service.</p>
+
+<h2>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<p>Import the library in your web page:</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/text-to-speech.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<p>This will create a <code>TextToSpeech</code> gloabal object. It contains a <code>talk</code> method that is called like below:</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">TextToSpeech</span><span class="p">.</span><span class="nx">talk</span><span class="p">(</span><span class="s2">"Hello Beautiful World!"</span><span class="p">);</span>
+</pre></div>
+
+<p>If a second argument is not provided the speech will start immediately.</p>
+
+<h2><a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<div class="highlight highlight-js"><pre id="js-code-to-run" contenteditable="">TextToSpeech.talk("Hello Beautiful World!");</pre></div>
+<button class="button" id="run-code">
+    <small>Run code</small>
+    now
+</button>
+
+<h2><a name="methods" class="anchor" href="#methods"><span class="octicon octicon-link"></span></a>Methods</h2>
+
+<table>
+<thead><tr>
+<th>Name</th>
+            <th>Arguments</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr></thead>
+<tbody><tr>
+<td><code>talk</code></td>
+            <td>
+                <ul>
+<li>
+<code>text</code> - a string representing the text that must be converted in speech</li>
+                    <li>
+<code>notNow</code> - a boolean value. If it's true, the speech will not start when the <code>talk</code> method is called.</li>
+                </ul>
+</td>
+            <td>The method that converts the text to speech.</td>
+            <td><code>TextToSpeech.talk("Hello Beautiful World!");</code></td>
+        </tr></tbody>
+</table><p></p><table>
+&lt;/table.
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The MIT License (MIT)</p>
+
+<p>Copyright (c) 2014 Ionică Bizău</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</table>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/IonicaBizau/text-to-speech-js/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/IonicaBizau/text-to-speech-js/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/IonicaBizau/text-to-speech-js"></a> is maintained by <a href="https://github.com/IonicaBizau">IonicaBizau</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+
+  </body>
+</html>
