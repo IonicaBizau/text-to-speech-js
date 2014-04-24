@@ -37,7 +37,14 @@ If a second argument is not provided the speech will start immediately.
             <td><code>talk</code></td>
             <td>
                 <ul>
-                    <li><code>text</code> - a string representing the text that must be converted in speech</li>
+                    <li><code>options</code> - a string representing the text that must be converted to speech or an object containing the following fields:
+                        <ul>
+                            <li>text: the input string that must be converted to speech</li>
+                            <li>lang: the language (default: "en")</li>
+                            <li>key: the Ivona api key</li>
+                            <li>voiceId: the Ivona voice id</li>
+                        </ul>
+                    </li>
                     <li><code>notNow</code> - a boolean value. If it's true, the speech will not start when the <code>talk</code> method is called.</li>
                 </ul>
             </td>
