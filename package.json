@@ -1,0 +1,30 @@
+{
+  "name": "text-to-speech-js",
+  "version": "1.0.0",
+  "description": "A small JavaScript library that provides a text to speech conversion using tts-api.com service.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/text-to-speech-js.git"
+  },
+  "keywords": [
+    "text",
+    "speech"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/text-to-speech-js/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/text-to-speech-js#readme",
+  "blah": {
+      "ex_img": "http://i.imgur.com/Q0uMnvD.png",
+      "ex_url": "http://ionicabizau.github.io/text-to-speech-js/",
+      "description": [
+          { "h2": "How to use" }
+      ]
+  }
+}
