@@ -59,6 +59,6 @@ Contributions are more than welcome!
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/repository-downloader/issues
+[1]: https://github.com/IonicaBizau/text-to-speech-js/issues
 
 [2]: https://github.com/IonicaBizau/code-style

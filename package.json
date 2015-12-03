@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/IonicaBizau/text-to-speech-js#readme",
   "blah": {
-      "ex_img": "http://i.imgur.com/Q0uMnvD.png",
-      "ex_url": "http://ionicabizau.github.io/text-to-speech-js/",
-      "description": [
-          { "h2": "How to use" }
-      ]
+    "ex_img": "http://i.imgur.com/Q0uMnvD.png",
+    "ex_url": "http://ionicabizau.github.io/text-to-speech-js/",
+    "description": [
+      {
+        "h2": "How to use"
+      }
+    ]
   }
 }
