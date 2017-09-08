@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Convert the provided text into speech.
 
 #### Params
+
 - **Object** `options`: An object containing:
   - text: a string that must be converted in speech
   - notNow (default: false): don't play it now
