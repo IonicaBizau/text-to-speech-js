@@ -1,6 +1,6 @@
 {
   "name": "text-to-speech-js",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A small JavaScript library that provides a text to speech conversion using tts-api.com service.",
   "main": "lib/index.js",
   "scripts": {
