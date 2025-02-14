@@ -1,6 +1,6 @@
 {
   "name": "text-to-speech-js",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "A small JavaScript library that provides a text to speech conversion using tts-api.com service.",
   "main": "lib/index.js",
   "scripts": {
@@ -40,6 +40,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
